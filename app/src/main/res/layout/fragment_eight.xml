@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments2.FragmentEight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_margin="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:layout_margin="10dp">
+
+                <SeekBar
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:id="@+id/seekBar"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="Volume"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:text="Play"
+                    android:textSize="20sp"
+                    android:background="@color/mine"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:text="Pause"
+                    android:textSize="20sp"
+                    android:background="@color/mine"
+                    android:layout_margin="5dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:layout_margin="10dp">
+
+                <SeekBar
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="3"
+                    android:id="@+id/scrubBar"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="Scrub Bar"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</FrameLayout>

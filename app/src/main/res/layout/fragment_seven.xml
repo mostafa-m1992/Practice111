@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments2.FragmentSeven"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="showing text place"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:id="@+id/textView1"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_columnSpan="5"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button1"
+                    android:text="start"
+                    android:background="@color/mine"
+                    android:layout_row="1"
+                    android:layout_column="0"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"
+                    android:text="pause"
+                    android:background="@color/mine"
+                    android:layout_row="1"
+                    android:layout_column="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"
+                    android:text="stop"
+                    android:background="@color/mine"
+                    android:layout_row="1"
+                    android:layout_column="2"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button4"
+                    android:text="second 20"
+                    android:background="@color/mine"
+                    android:layout_row="1"
+                    android:layout_column="2"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button5"
+                    android:text="play situation"
+                    android:background="@color/mine"
+                    android:layout_row="1"
+                    android:layout_column="3"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button6"
+                    android:text="this situation"
+                    android:background="@color/mine"
+                    android:layout_row="1"
+                    android:layout_column="4"/>
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/videoView1"
+                    android:layout_gravity="center"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="10dp"/>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments2.FragmentSix"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    app:layout_anchorGravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/basketball"
+                android:alpha="1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/bugs_bunny"
+                android:alpha="1"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gridLayout">
+
+                <!--flowers-->
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view1"
+                    android:background="@drawable/flower1"
+                    android:alpha="1"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view2"
+                    android:background="@drawable/flower2"
+                    android:alpha="1"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view3"
+                    android:background="@drawable/flower3"
+                    android:alpha="1"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view4"
+                    android:background="@drawable/flower4"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view5"
+                    android:background="@drawable/flower5"
+                    android:alpha="1"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view6"
+                    android:background="@drawable/flower6"
+                    android:alpha="1"
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view7"
+                    android:background="@drawable/flower7"
+                    android:alpha="1"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view8"
+                    android:background="@drawable/flower8"
+                    android:alpha="1"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view9"
+                    android:background="@drawable/flower9"
+                    android:alpha="1"
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view10"
+                    android:background="@drawable/flower10"
+                    android:alpha="1"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view11"
+                    android:background="@drawable/flower11"
+                    android:alpha="1"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view12"
+                    android:background="@drawable/flower12"
+                    android:alpha="1"
+                    android:layout_row="3"
+                    android:layout_column="2"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view13"
+                    android:background="@drawable/flower13"
+                    android:alpha="1"
+                    android:layout_row="4"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view14"
+                    android:background="@drawable/flower14"
+                    android:alpha="1"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/view15"
+                    android:background="@drawable/flower15"
+                    android:alpha="1"
+                    android:layout_row="4"
+                    android:layout_column="2"
+                    android:layout_margin="5dp"/>
+
+                <!--flags-->
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/flag1"
+                    android:background="@drawable/flag_cn"
+                    android:alpha="0"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/flag2"
+                    android:background="@drawable/flag_cz"
+                    android:alpha="0"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_margin="5dp"/>
+
+                <!--images-->
+
+            </GridLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="1"
+                android:src="@drawable/bunny" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
